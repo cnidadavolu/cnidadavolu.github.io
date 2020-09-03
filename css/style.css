@@ -74,8 +74,7 @@ hr {
 	text-align: center;
 	position: relative;
 	background: #7bc3d1;
-	margin: 0 auto;
-	margin-bottom: 30px;
+	margin: 0 auto 30px;
 	border: 0;
 }
 /* Navigation */
@@ -90,7 +89,7 @@ hr {
 .navbar-custom {
 	margin-bottom: 0;
 	background-color: #121d1f;
-	border-radius: 0px;
+	border-radius: 0;
 	padding: 10px 0;
 }
 .navbar-custom .navbar-brand {
@@ -169,15 +168,12 @@ hr {
 .intro {
 	display: table;
 	width: 100%;
-	height: 100%;
+	height: 50%;
 	padding: 100px 200px;
 	text-align: center;
 	color: #fff;
-	background: url(../img/bg.JPG) no-repeat center center;*/
-	background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
-	background-color: #7bc3d1;
+	background-size: auto;                      /* <------ */
+	background: #7bc3d1 url(../img/banner-bg.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -218,7 +214,7 @@ hr {
 #skills .skill {
 	margin-bottom: 40px;
 	text-align: center;
-	padding: 0px;
+	padding: 0;
 }
 #skills .skill h4 {
 	font-weight: 600;
@@ -664,8 +660,8 @@ section {
 	padding: 120px 0;
 }
 header .intro-text {
-	padding-top: 300px;
-	padding-bottom: 200px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 }
 .timeline:before {
 	left: 50%;
@@ -700,7 +696,7 @@ header .intro-text {
 
 @media(min-width:992px) {
 #here-me h1 {
-	margin: 10px 0 0px;
+	margin: 10px 0 0;
 }
 .timeline>li {
 	min-height: 150px;
